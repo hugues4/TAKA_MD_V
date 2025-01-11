@@ -730,7 +730,7 @@ const {
    alias: ["bye"],
    desc: "Kicks replied/quoted user from group.",
    category: "group",
-   react: "🤣",
+   react: "💔",
    filename: __filename,
    use: "<quote|reply|number>"
  }, async (_0x5e533c, _0x2a29f6) => {
@@ -739,20 +739,20 @@ const {
        return _0x5e533c.reply(tlang().group);
      }
      if (!_0x5e533c.isBotAdmin) {
-       return await _0x5e533c.reply("*_I'm Not Admin In This Group, Idiot😭_*");
+       return await _0x5e533c.reply("*_I'm Not Admin In This Group_*");
      }
      if (!_0x5e533c.isAdmin) {
        return _0x5e533c.reply(tlang().admin);
      }
      let _0x4e844a = _0x5e533c.quoted ? _0x5e533c.quoted.sender : _0x5e533c.mentionedJid[0] ? _0x5e533c.mentionedJid[0] : false;
      if (!_0x4e844a) {
-       return await _0x5e533c.reply("*Uhh dear, reply/mention an User man😑*");
+       return await _0x5e533c.reply("*Uhh Sir, reply/mention an User 😑*");
      }
      if (_0x5e533c.checkBot(_0x4e844a)) {
        return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur KgTech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*Tout laisse 😑, @" + _0x4e844a.split("@")[0] + " ne reviens plus jamais imbécile🤣😭!*", {
+     await _0x5e533c.send("*sorry😑, @" + _0x4e844a.split("@")[0] + " see you later🤦🏾‍♂️!*", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
