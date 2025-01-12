@@ -584,9 +584,9 @@ const {
    }
  });
  cmd({
-   pattern: "kik",
-   alias: ["fkik"],
-   desc: "Kick all numbers from a certain country",
+   pattern: "kickall",
+   alias: ["kik"],
+   desc: "Kick all numbers in the group",
    category: "group",
    react: "💀",
    filename: __filename
@@ -752,7 +752,7 @@ const {
        return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur KgTech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*sorry😑, @" + _0x4e844a.split("@")[0] + " see you later🤦🏾‍♂️!*", {
+     await _0x5e533c.send("*sorry, @" + _0x4e844a.split("@")[0] + " see you later🤦🏾‍♂️!*", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
