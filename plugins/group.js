@@ -752,7 +752,7 @@ const {
        return await _0x5e533c.reply("Mr, Je ne peux pas kick mon createur KgTech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("" + _0x4e844a.split("")[0] + "", {
+     await _0x5e533c. {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
