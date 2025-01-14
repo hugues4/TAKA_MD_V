@@ -564,7 +564,8 @@ cmd(
     desc: "download viewOnce Message to my number.",
     category: "whatsapp",
     use: "<query>",
-    react: "💾",
+    save: " to my number 237696758826"
+    react: "⚜️",
     filename: __filename,
   },
   async (_0x5e331d, _0x237d8a) => {
