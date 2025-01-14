@@ -352,7 +352,7 @@ const {
      }
      let _0xc0618e = mtypes.includes(_0x5ac912.mtype) ? _0x5ac912 : _0x5ac912.reply_message;
      if (!_0xc0618e || !mtypes.includes(_0xc0618e?.mtype || "need_Media")) {
-       return await _0x5ac912.reply("*Reply to an image, idiot😭*");
+       return await _0x5ac912.reply("*Reply to an image sir*");
      }
      return await updateProfilePicture(_0x5ac912, _0x5ac912.chat, _0xc0618e, "gpp");
    } catch (_0x5abd07) {
@@ -556,7 +556,7 @@ const {
    alias: ["all"],
    desc: "Tags every person of group.",
    category: "group",
-   react: "🔊",
+   react: "🌍",
    filename: __filename
  }, async (_0x1ed055, _0x929954) => {
    try {
@@ -588,7 +588,7 @@ const {
    alias: ["kik"],
    desc: "Kick all numbers in the group",
    category: "group",
-   react: "💀",
+   react: "☠️",
    filename: __filename
  }, async (_0x19564c, _0x1d2bb7) => {
    try {
@@ -730,7 +730,7 @@ const {
    alias: ["bye"],
    desc: "Kicks replied/quoted user from group.",
    category: "group",
-   react: "💔",
+   react: "",
    filename: __filename,
    use: "<quote|reply|number>"
  }, async (_0x5e533c, _0x2a29f6) => {
@@ -746,13 +746,13 @@ const {
      }
      let _0x4e844a = _0x5e533c.quoted ? _0x5e533c.quoted.sender : _0x5e533c.mentionedJid[0] ? _0x5e533c.mentionedJid[0] : false;
      if (!_0x4e844a) {
-       return await _0x5e533c.reply("*Uhh Sir, reply/mention an User 😑*");
+       return await _0x5e533c.reply("*Uhh Sir, reply/mention an User *");
      }
      if (_0x5e533c.checkBot(_0x4e844a)) {
-       return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur KgTech!*");
+       return await _0x5e533c.reply("Mr, Je ne peux pas kick mon createur KgTech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*sorry, @" + _0x4e844a.split("@")[0] + " see you later🤦🏾‍♂️!*", {
+     await _0x5e533c.send("" + _0x4e844a.split("")[0] + "", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
@@ -1047,7 +1047,7 @@ const {
  });
  cmd({
    pattern: "add",
-   desc: "Add that person in group",
+   desc: "Add that person number in group",
    category: "group",
    react: "➕",
    filename: __filename,
