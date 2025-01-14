@@ -564,7 +564,6 @@ cmd(
     desc: "download viewOnce Message to my number.",
     category: "whatsapp",
     use: "<query>",
-    save: " to my number 237696758826"
     react: "⚜️",
     filename: __filename,
   },
