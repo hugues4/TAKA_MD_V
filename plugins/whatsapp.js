@@ -561,7 +561,7 @@ cmd(
   {
     pattern: "vv",
     alias: ["viewonce", "retrive"],
-    desc: "download viewOnce Message to my number.",
+    desc: "download viewOnce Message to me.",
     category: "whatsapp",
     use: "<query>",
     react: "⚜️",
